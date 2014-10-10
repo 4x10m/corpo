@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.uvhc.corpo2014.activitys.ChooseArticleCategoryActivity" >
+
+    <Button
+        android:id="@+id/categoryMidDayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="43dp"
+        android:text="Midi" />
+
+    <Button
+        android:id="@+id/addarticletakephotobutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/categoryMidDayButton"
+        android:layout_below="@+id/categoryMidDayButton"
+        android:layout_marginTop="47dp"
+        android:text="Casse Croute" />
+
+    <Button
+        android:id="@+id/addarticleaddbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="73dp"
+        android:text="Extras" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/addarticletakephotobutton"
+        android:layout_below="@+id/addarticletakephotobutton"
+        android:layout_marginTop="27dp"
+        android:text="Boisson" />
+
+</RelativeLayout>
